@@ -1,0 +1,11 @@
+{
+    "title":"Hola Mundo",
+    "appbar_title":"Ejemplo de localización",
+    "header":"Bienvenido de nuevo",
+    "email_hint":"Introduce tu correo electrónico",
+    "password_hint":"Introduce tu contraseña",
+    "forget":"Olvidar Contraseña",
+    "login_btn":"Acceso",
+    "dont_have":"¿No tienes una cuenta?",
+    "register":"Registro"
+}

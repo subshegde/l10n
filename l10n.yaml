@@ -1,0 +1,23 @@
+# Path to the directory where all your .arb localization files are stored.
+# Example: lib/l10n/app_en.arb, app_es.arb, app_kn.arb
+arb-dir: lib/core/l10n
+
+# This is the main/base .arb file — usually in English.
+# Flutter uses this file as the template to extract all the keys.
+template-arb-file: app_en.arb
+
+# The name of the Dart file that Flutter will generate with all your localized strings.
+# This file will be placed in the `.dart_tool/flutter_gen/gen_l10n/` directory.
+output-localization-file: app_localizations.dart
+
+# The name of the Dart class Flutter will generate.
+# You use this class to access localized strings, like: AppLocalizations.of(context)!.welcome
+output-class: AppLocalizations
+
+# A list of language codes (ISO 639-1) for the supported locales in your app.
+# This determines what languages your app supports.
+# You must have matching .arb files (e.g., app_es.arb for 'es', app_kn.arb for 'kn').
+preferred-supported-locales:
+  - en  # English
+  - es  # Spanish
+  - kn  # Kannada

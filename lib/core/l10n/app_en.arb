@@ -1,0 +1,11 @@
+{
+    "title":"Hello World",
+    "appbar_title":"Localization Example",
+    "header":"Welcome",
+    "email_hint":"Enter your email",
+    "password_hint":"Enter your password",
+    "forget":"Forget Password",
+    "login_btn":"Login",
+    "dont_have":"Don't have an account?",
+    "register":"Register"
+}
